@@ -54,5 +54,5 @@ steps:
     zipAfterPublish: true
 
 - task: PublishBuildArtifacts@1
-  displaygitName: 'Publish Artifact: drop'
+  displayName: 'Publish Artifact: drop'
   condition: succeeded()
