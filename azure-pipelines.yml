@@ -8,7 +8,7 @@ pool:
 
 variables:
   buildConfiguration: 'Release'
-  wwwreootDir: 'Tailspin.SpaceGame.Web/wwwroot'
+  wwwrootDir: 'Tailspin.SpaceGame.Web/wwwroot'
   dotnetSdkVersion: '3.1.300'
 
 steps:
@@ -57,4 +57,4 @@ steps:
 
 - task: PublishBuildArtifacts@1
   displayName: 'Publish Artifact: drop'
-  condition: succeeded()
+  condition: succeeded
